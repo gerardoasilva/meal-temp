@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import "react-icons";
+import { FaInstagram, FaFacebookF, FaYoutube } from "react-icons/fa";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+    <div className="hero">
+      <h1 className="fancy">
+        Make It <span>Real</span>
+      </h1>
+      <div className="social">
+        <a href="http://instagram.com/meal.nutrition/" className="grow">
+          <FaInstagram />
         </a>
-      </header>
+        <a
+          href="https://www.facebook.com/Meal-Nutrition-103380868361404"
+          className="grow"
+        >
+          <FaFacebookF />
+        </a>
+        <a
+          href="https://www.youtube.com/channel/UCWNtk7ynCuq42KCb9aXt48w"
+          className="grow"
+        >
+          <FaYoutube />
+        </a>
+      </div>
+      <footer>© 2021 Meal Nutrition. All Rights Reserved.</footer>
     </div>
   );
 }
