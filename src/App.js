@@ -7,7 +7,7 @@ function App() {
   return (
     <Div100vh>
       <div className="hero">
-        <h1 className="fancy">
+        <h1 className="noselect fancy">
           Make It <span>Real</span>
         </h1>
         <div className="social">
